@@ -17,6 +17,10 @@
     "url": "https://github.com/kirademiurge/llist/issues"
   },
 	"homepage": "https://github.com/kirademiurge/llist#readme",
+	"scripts": {
+		"build": "tsc --declaration",
+		"publish": "npm publish --access public"
+	},
 	"devDependencies": {
 		"@types/node": "^20.10.0",
 		"ts-node": "^10.9.1",
